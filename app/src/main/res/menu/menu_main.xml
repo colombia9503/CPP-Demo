@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Acerca de"
+        android:enabled="true"
+        android:visible="true"
+        android:checkable="false"
+        android:id="@+id/btnAcercaDe"
+        app:showAsAction="never" />
+    <item android:title="Cerrar Sesión"
+        android:id="@+id/btnLogOut"
+        android:visible="true"
+        android:enabled="true"
+        app:showAsAction="never" />
+</menu>
