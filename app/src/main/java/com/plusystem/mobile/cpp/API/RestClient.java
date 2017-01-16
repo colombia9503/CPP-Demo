@@ -14,7 +14,7 @@ import cz.msebera.android.httpclient.entity.StringEntity;
  */
 
 public class RestClient {
-    private static final String BASE_URL = "http://192.168.0.20:8081/";
+    private static final String BASE_URL = "http://192.168.0.115:8081/";
 
     private static AsyncHttpClient client = new AsyncHttpClient();
 

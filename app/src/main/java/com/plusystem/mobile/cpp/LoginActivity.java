@@ -42,11 +42,17 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.btnIngresar){
-            postAuth();
+            //postAuth();
+            simulateAuth();
             return;
         }
     }
 
+    private void simulateAuth(){
+        String user = txtUsuario.getText().toString();
+        String pwd = txtClave.getText().toString();
+        startActivity(new Intent(LoginActivity.this, TransformadoresActivity.class));
+    }
     /***
      *
      */

@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">CPP-Mobile</string>
-    <string name="title_activity_transformadores">TransformadoresActivity</string>
+    <string name="title_activity_transformadores">Transformadores</string>
+    <string name="title_activity_registrar_transformadores">Transformador</string>
+    <string name="title_activity_usuarios">Usuarios</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_side_bar">SideBarActivity</string>
 </resources>
