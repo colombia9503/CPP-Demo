@@ -32,4 +32,5 @@ dependencies {
     compile 'com.android.support:gridlayout-v7:25.1.0'
     compile 'com.android.support:recyclerview-v7:25.1.0'
     compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'cz.msebera.android:httpclient:4.4.1.2'
 }

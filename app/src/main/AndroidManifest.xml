@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".MenuActivity" />
         <activity android:name=".TransformadoresActivity" />
-        <activity android:name=".UsuariosActivity"></activity>
+        <activity android:name=".UsuariosActivity" />
+        <activity android:name=".RegistrarTransformadorActivity"></activity>
     </application>
 
 </manifest>

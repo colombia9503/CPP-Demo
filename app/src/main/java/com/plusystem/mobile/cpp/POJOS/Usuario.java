@@ -1,5 +1,8 @@
 package com.plusystem.mobile.cpp.POJOS;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 /**
  * Created by Santiago U. on 12/01/17.
  */
@@ -28,6 +31,23 @@ public class Usuario {
         this.rol = rol;
         this.activo = activo;
         this.borrado = borrado;
+    }
+
+    public Usuario(JSONObject object) {
+        try {
+            this.codigo = object.getInt("Codigo");
+            this.cedula = object.getString("Cedula");
+            this.nombre = object.getString("Nombre");
+            this.usuario = object.getString("Usuario");
+            this.clave = object.getString("Clave");
+            this.salt = object.getString("Salt");
+            this.rol = object.getString("Rol");
+            this.activo = object.getInt("Activo");
+            this.borrado = object.getInt("Borrado");
+        }catch(JSONException ex) {
+            ex.printStackTrace();
+        }
+
     }
 
     public int getCodigo() {

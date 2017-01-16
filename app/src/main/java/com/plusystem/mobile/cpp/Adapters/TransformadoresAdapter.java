@@ -39,6 +39,8 @@ public class TransformadoresAdapter extends ArrayAdapter {
         if(convertView == null) {
             holder = new ViewHolder();
             convertView = View.inflate(context, resource, null);
+            convertView.setTag(holder);
+
             holder.txtItemTransfDesc = (TextView) convertView.findViewById(R.id.txtItemTransfDesc);
             holder.txtItemTransfNombre = (TextView) convertView.findViewById(R.id.txtItemTransfNombre);
         } else {

@@ -77,6 +77,12 @@ public class TransformadoresActivity extends AppCompatActivity implements View.O
         objects.add(new Transformador("Transformador 6", "Transformador de prueba"));
         objects.add(new Transformador("Transformador 7", "Transformador de prueba"));
         objects.add(new Transformador("Transformador 8", "Transformador de prueba"));
-
+        objects.add(new Transformador("Transformador 5", "Transformador de prueba"));
+        objects.add(new Transformador("Transformador 6", "Transformador de prueba"));
+        objects.add(new Transformador("Transformador 7", "Transformador de prueba"));
+        objects.add(new Transformador("Transformador 8", "Transformador de prueba"));
+        objects.add(new Transformador("Transformador 9", "Transformador de prueba"));
+        objects.add(new Transformador("Transformador 10", "Transformador de prueba"));
+        objects.add(new Transformador("Transformador 11", "Transformador de prueba"));
     }
 }

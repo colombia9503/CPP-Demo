@@ -20,12 +20,8 @@ public class UsuariosAdapter extends ArrayAdapter<Usuario> {
     private int resource;
     List<Usuario> objects;
 
-    private static final String URL_BASE = "http://192.168.0.109:8081";
-    private static final String URL_JSON = "/usuarios";
-    private static final String TAG="UsuariosAdapter";
-
     public UsuariosAdapter (Context context, int resource, List<Usuario> objects){
-        super(context, resource);
+        super(context, resource, objects);
         this.context = context;
         this.resource = resource;
         this.objects = objects;
@@ -44,6 +40,7 @@ public class UsuariosAdapter extends ArrayAdapter<Usuario> {
         if(convertView == null) {
             holder = new ViewHolder();
             convertView = View.inflate(context, resource, null);
+            convertView.setTag(holder);
 
             holder.txtUICuenta = (TextView) convertView.findViewById(R.id.txtUICuenta);
             holder.txtUINombre = (TextView) convertView.findViewById(R.id.txtIUNombre);
